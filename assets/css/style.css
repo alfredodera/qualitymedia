@@ -410,7 +410,7 @@ h3{
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/smp/portfolio-1.jpg") top center;
+  background: url("assets/img/smp/portfolio-1.jpg") top center;
   background-size: cover;ss
   position: relative;
   padding: 0;
