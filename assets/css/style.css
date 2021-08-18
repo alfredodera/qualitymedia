@@ -436,7 +436,7 @@ h1, h2,h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/smp/portfolio-1.jpg") top center;
+  background: url("../img/smp/heropage.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
