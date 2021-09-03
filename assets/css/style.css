@@ -20,6 +20,9 @@ a {
 p{
   color: #15222b;
 }
+.p.blog{
+  font-family:"Open Sans",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 a:hover {
   color: #add8e6;
   text-decoration: none;
@@ -429,6 +432,32 @@ h1, h2,h4, h5, h6 {
     border-left: 0;
   }
 }
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1600px) {
+    .container {
+      max-width: 1140px; } }
+
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
 
 /*--------------------------------------------------------------
 # Hero Section
