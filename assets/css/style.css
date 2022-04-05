@@ -599,9 +599,15 @@ h1, h2,h4, h5, h6 {
 
 
 /*BLOG*/
+.blog{
+    background: url("../img/smp/poetrythree.jpeg"),linear-gradient(rgba(0, 0,0, 0.08),rgba(0, 0,0, 0.08)) top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .blog-entry {
   border: 1px solid #f2f2f2;
-  background: #fff;
+  background-color: #add8e6;
   overflow: hidden;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -665,6 +671,12 @@ h1, h2,h4, h5, h6 {
     .block-21 .text .meta > div a {
       color: gray; }
       
+.ftco-section{
+   background: url("../img/smp/poetrythree.jpeg"),linear-gradient(rgba(0, 0,0, 0.08),rgba(0, 0,0, 0.08)) top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}      
 .ftco-section {
   padding: 7em 0;
   position: relative; }
@@ -692,6 +704,7 @@ section {
 
 .section-title h2 {
   font-size: 14px;
+  
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -714,6 +727,7 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
